@@ -1,16 +1,19 @@
 Docker container for MEGASync on aarch64
 ===
 
-Make possible to run [MEGA Sync](https://mega.nz/sync) on 64bit arm devices with Docker
+Make possible to run [MEGA Sync](https://mega.nz/sync) on 64bit arm devices with Docker (Ex. Raspberry Pi 4)
 
-The Docker baseimage comes from modified fork of [jlesage/docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui)
+The Docker baseimage comes from modified fork of [jlesage/docker-baseimage-gui](https://github.com/jlesage/docker-baseimage-gui).
 The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.
 
 Note: Official MEGASync currently does not support Linux on 64bit arm devices, this image used a pre-compiled MEGASync binary
-from [my fork](https://github.com/daniel0076/MEGAsync) of MEGASync with modifications to enable running Linux aarch64.
+from [my fork](https://github.com/daniel0076/MEGAsync) of MEGASync with modifications to enable running on Linux aarch64.
 
 This project is still at an initial stage, and it is only tested on a Raspbery Pi 4 (4GB) with Ubuntu 20.04 (64bit) only.
 Open issues for help if you counter a problem.
+
+## Screenshots
+<img src="https://raw.githubusercontent.com/daniel0076/docker-megasync-arm/master/screenshots/1.png" alt="screenshot2" />
 
 ## Quick Start
 
